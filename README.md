@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML related to the incorrect usage of innerHTML when inserting script tags.  The bug can lead to unexpected behavior and potential XSS vulnerabilities. The solution provides a safer approach using DOM manipulation.
