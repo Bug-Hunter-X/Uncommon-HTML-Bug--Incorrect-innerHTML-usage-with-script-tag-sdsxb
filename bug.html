@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug</title></head><body> <p>This is a paragraph.</p> <div id="myDiv"></div> <script> // Incorrectly using innerHTML to insert a <script> tag. This can lead to unexpected behavior or XSS vulnerabilities. document.getElementById("myDiv").innerHTML = '<script> alert("This is an alert!"); </script>'; </script> </body></html>
